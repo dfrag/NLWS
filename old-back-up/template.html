@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Next Level Web Studio</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/style.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        
+    <!--  NAV -->
+    <div class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Next Level Web Studio</a>
+            </div>
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav  pull-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="package.html">Packages</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--  NAV END  -->
+        
+    <!--  JUMBO  -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="logo-replacement">Next Level Web Studio</h1>
+        </div>
+    </div>
+    <!--  JUMBO END  -->
+    
+    <!--  CONTENT START     -->
+    <div class="container">
+        <div class="page-header"><!-- PAGE HEADER -->
+            <div class="row">
+                <div class="col-md-12">
+                    Page header
+                </div>
+            </div>
+            <div class="col-md-12">
+                <h2>followup contnet</h2>
+                <img alt="Product No 1" src="/images/jan-offer-tech.jpg" class="offer">
+                <p class="lead">Lead info</p>
+                <a href="https://www.facebook.com/nextleveltechhelp" class="btn btn-primary" target="_blank">Our Facebook Page</a>
+            </div>
+        </div><!-- PAGE HEADER END -->
+    </div>
+    <!--  CONTENT END  -->    
+
+    <!--  FOOTER  -->
+        <div class="well well-foot">
+            <p>© 2014 by Next Level Web Studio. Professionally insured through <a href="https://www.policybee.co.uk/">PolicyBee</a>.</p>
+            <p>Listed with: Directory of Cardiff Web Designers on <a href="http://www.cardiff.co.uk/web-designers/">Cardiff.co.uk</a></p>
+        </div>
+    <!--  FOOTER END  -->
+        
+    <!--  MODAL -->
+    <noscript>The contact form requires JavaScript to be enabled in your browser inorder to function properly. Please email any querries to <a href="mailto:questions@nextlevelwebstudio.co.uk?Subject=I have a Javascript query." class="btn btn-primary pull-left" target="_top">Report Issue</a></noscript>
+        
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal" name="message" action="mailer.php" method="post">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4>Contact Next Level Web Studio.</h4>
+                        <p>To contact us please ring or text 07506 07 09 77 or email between 9:00am untill 6:00pm Monday to Friday.</p>
+
+                        <small>Or you can fill in all fields below and press the "Send" button, we will respond as soon as possible.</small>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="contact-name" class="col-lg-2 control-lable">Name:</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Full name" name="full-name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email" class="col-lg-2 control-lable">Email:</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="contact-email" placeholder="you@example.com" name="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-msg" class="col-lg-2 control-lable">Message:</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8" name="message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.facebook.com/nextlevelwebstudio" class="btn btn-primary pull-left" target="_blank">Our Facebook Page</a>
+                        <a href="mailto:questions@nextlevelwebstudio.co.uk?Subject=I have a web site query." class="btn btn-primary pull-left" target="_top">Email Us</a>
+                        <a class="btn btn-danger pull-right" data-dismiss="modal">Cancel</a>
+                        <button class="btn btn-success pull-right" type="submit">Send</button>    
+                    </div>
+                </form>
+            </div>    
+        </div>
+    </div>
+    <!--  MODAL -->
+ 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
